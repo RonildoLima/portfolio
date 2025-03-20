@@ -61,10 +61,10 @@ function App() {
     pdf.setFont("helvetica", "normal");
     const experience = [
       "Full-Stack Developer Analyst at DivTech Informática - Current",
-      "• Integration support and data transmission efficiency between systems",
-      "• ETL application development for data integration and analysis",
-      "• Online certification systems development",
-      "• RPA process development for task automation"
+      "Participation in the order integration support team, ensuring efficiency and accuracy in data transmission between systems",
+      "Contribution to the ETL (Extract, Transform, Load) application development team, facilitating data integration and analysis across various systems",
+      "Online certification systems development",
+      "RPA process development for task automation"
     ];
     experience.forEach((line, index) => {
       pdf.text(line, 30, 230 + (index * 10));
@@ -97,20 +97,20 @@ function App() {
 
   const projects = [
     {
-      title: "Sistema de Gestão ETL",
-      description: "Desenvolvimento de sistema ETL para integração de dados entre diferentes plataformas usando C# e .NET",
+      title: "ETL Management System",
+      description: "Development of an ETL system for data integration between different platforms using C# and .NET",
       tags: ["C#", ".NET", "SQL Server"],
       github: ""
     },
     {
-      title: "API REST SpringBoot",
-      description: "API RESTful desenvolvida com Java SpringBoot para gerenciamento de dados empresariais",
+      title: "SpringBoot REST API",
+      description: "RESTful API developed with Java SpringBoot for enterprise data management",
       tags: ["Java", "SpringBoot", "PostgreSQL"],
       github: ""
     },
     {
-      title: "Automação RPA",
-      description: "Sistema de automação de processos usando Python para otimização de tarefas repetitivas",
+      title: "RPA Automation",
+      description: "Process automation system using Python for optimizing repetitive tasks",
       tags: ["Python", "Automation", "RPA"],
       github: ""
     }
@@ -166,24 +166,24 @@ function App() {
           </h2>
           <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
             <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
-              Full-Stack Developer Analyst at DivTech Informática - Current
+              Full-Stack Developer Analyst at DivTech Informática (2024 - Current)
             </h3>
             <ul className="space-y-3 text-gray-600 dark:text-gray-300">
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>Participação na equipe de suporte de integrações de pedidos, garantindo a eficiência e precisão na transmissão de dados entre sistemas</span>
+                <span>Participation in the order integration support team, ensuring efficiency and accuracy in data transmission between systems</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>Contribuição à equipe de desenvolvimento de aplicações ETL (Extract, Transform, Load), facilitando a integração e análise de dados em diversos sistemas</span>
+                <span>Contribution to the ETL (Extract, Transform, Load) application development team, facilitating data integration and analysis across various systems</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>Colaboração na equipe de sistemas de certificações online, garantindo a integridade e segurança das plataformas de certificação</span>
+                <span>Collaboration with the online certification systems team, ensuring the integrity and security of certification platforms</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>Integração à equipe de desenvolvimento de processos RPA (Robotic Process Automation), automatizando tarefas repetitivas e aumentando a eficiência operacional</span>
+                <span>Integration with the RPA (Robotic Process Automation) process development team, automating repetitive tasks and increasing operational efficiency</span>
               </li>
             </ul>
           </div>
@@ -363,23 +363,23 @@ function App() {
             <ul className="space-y-3 text-gray-600 dark:text-gray-300">
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>Pacote Office e Pacote Adobe (60 horas)</span>
+                <span>Office Package and Adobe Package (60 hours)</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>Programação em Python 3 (120 horas)</span>
+                <span>Python 3 Programming (120 hours)</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>Inglês do básico ao avançado pela UDEMY (60 horas)</span>
+                <span>English from basic to advanced by UDEMY (60 hours)</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>SQL (Iniciante ao avançado) (60h)</span>
+                <span>SQL (Beginner to advanced) (60h)</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                <span>Full-stack: Desenvolvedor ASP.NET pela TreinaWeb</span>
+                <span>Full-stack: ASP.NET Developer by TreinaWeb</span>
               </li>
             </ul>
           </div>
@@ -395,7 +395,7 @@ function App() {
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               <p className="text-gray-600 dark:text-gray-300">
-                Inglês (Intermediário) – Estudo regular
+                English (Intermediate) - Regular study
               </p>
             </div>
           </div>
@@ -417,7 +417,7 @@ function App() {
             <a href="tel:+5583998477569" className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg flex items-center gap-3 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
               <Phone className="w-5 h-5 text-blue-500" />
               <div>
-                <div className="font-semibold">Telefone</div>
+                <div className="font-semibold">Phone</div>
                 <div className="text-gray-600 dark:text-gray-300">(83) 99847-7569</div>
               </div>
             </a>
@@ -431,7 +431,7 @@ function App() {
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg flex items-center gap-3 text-gray-700 dark:text-gray-200">
               <MapPin className="w-5 h-5 text-blue-500" />
               <div>
-                <div className="font-semibold">Localização</div>
+                <div className="font-semibold">Location</div>
                 <div className="text-gray-600 dark:text-gray-300">Pombal, Paraíba</div>
               </div>
             </div>
