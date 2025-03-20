@@ -231,7 +231,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="w-40 h-40 rounded-full border-4 border-white dark:border-gray-800 overflow-hidden bg-white mx-auto mb-8">
             <img
-              src="https://i.ibb.co/fz2Ljtc6/IMG-20221119-142515-334.jpg"
+              src="https://i.ibb.co/d0ryDP40/Design-sem-nome.png"
               alt="Profile"
               className="w-full h-full object-cover"
             />
