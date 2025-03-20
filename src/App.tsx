@@ -540,7 +540,7 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-gray-50 dark:bg-gray-800 py-6 text-center text-gray-600 dark:text-gray-300">
-        <p>© 2024 Ronildo Lima dos Santos Júnior. {translations[language].allRightsReserved}</p>
+        <p>© 2025 Ronildo Lima dos Santos Júnior. {translations[language].allRightsReserved}</p>
       </footer>
     </div>
   );
